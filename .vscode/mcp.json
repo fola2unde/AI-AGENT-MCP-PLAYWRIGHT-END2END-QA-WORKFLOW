@@ -22,6 +22,16 @@
       "headers": {
         "Authorization": "Bearer YOUR_GITHUB_PAT_HERE"
       }
+    },
+
+    "selenium": {
+      "command": "npx",
+      "args": ["-y", "@angiejones/mcp-selenium@latest"]
+    },
+
+     "atlassian": {
+      "type": "http",
+      "url": "https://mcp.atlassian.com/v1/mcp"
     }
 
 
